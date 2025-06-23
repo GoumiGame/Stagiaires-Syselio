@@ -9,6 +9,7 @@ const clickButton = document.getElementById('clickButton');
 clickButton.addEventListener('click', (event) => {
     event.preventDefault(); // Prevent the default link action
     score++; // Increment the score
+    localStorage.setItem("count", score);
     scoreDisplay.textContent = score; // Update the displayed score
 
     // Choose the correct URL based on the score
@@ -35,4 +36,15 @@ clickButton.addEventListener('click', (event) => {
 
     // Open the URL
     window.open(url, '_blank');
+});
+
+document.addEventListener("DOMContentLoaded", (event) => {
+    score = localStorage.getItem("count");
+    console.log(score)
+    if (score != null) {
+        scoreDisplay.textContent = score;
+    }
+    else {
+        scoreDisplay.textContent = "0";
+    }
 });
