@@ -1,0 +1,61 @@
+body {
+    background-color:rgb(139,85,50) ;
+}
+
+.livre {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    width: 1000;
+    height: 915px;
+    z-index: -1;
+}
+
+.liens_carnet {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.div0{
+    display:flex;
+    flex-direction: row;
+}
+
+.div1 {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Poetsen One, Arial;
+    font-family: Outfit, static;
+    margin-top: 130px;
+    margin-left: 475px;
+    width: 350px;
+}
+
+.div2 {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Poetsen One, Arial;
+    font-family: Outfit, static;
+    margin-top: 130px;
+    margin-left: 30px;
+    width: 350px;
+}
+
+.nom {
+    font-size:30px;
+}
+
+.hello {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.home {
+    height: 2;
+    width: 2;
+}
