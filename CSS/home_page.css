@@ -1,0 +1,172 @@
+body {
+    background-image: url(Fond.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page_individuelle_contenus {
+    font-size: 25px;
+    font-family: Poetsen One, Arial;
+    text-align: center;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.bandeau {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px;
+}
+
+.titre {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: Caprasimo, Arial;
+    display: inline-block;
+    text-shadow: 4px 4px rgb(194, 189, 189);
+}
+
+.syselio {
+    margin-left: 15px;
+    display: inline-block;
+    box-shadow: 5px 5px rgb(194, 189, 189);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 60px;
+}
+
+.syselio:hover {
+    box-shadow: 8px 8px rgb(194, 189, 189);
+}
+
+.img_syselio {
+    width: 99.8%;
+    height: 100%;
+}
+
+.page_individuelle {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.lien_pages_stagiaires {
+    color: rgb(4, 109, 0);
+    font-size: 20px;
+    font-family: Poetsen One, Arial;
+    display: inline-block;
+    text-align: center;
+}
+
+.lien_pages_stagiaires:hover {
+    color:rgb(12, 187, 6);
+    text-decoration: none;
+}
+
+.centre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 40px;
+}
+
+.présentation {
+    font-size: 18px;
+    font-family: Lato, Arial;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+.nyan_to_count1 {
+    display: flex;
+}
+
+.nyan_cat {
+    display: inline-block;
+    width: 200px;
+    height: auto;
+}
+
+.click_count {
+    display: inline-block;
+    font-size: 25px;
+    font-family: Poetsen One, Arial;
+    margin: 0px;
+    margin-top: 82px;
+}
+
+#catPath {
+    left: 0;
+	width: 100%;
+	height: 25%;
+}
+
+.cat{
+	position: absolute;
+	top: 1;
+	left: 0;
+	width: 110px;
+	height: auto;
+	display: inline-block;
+}
+
+.cat > .cat-image {
+	width: 100%;
+	height: auto;
+}
+
+.cat-image:hover {
+    cursor: pointer;
+}
+
+/* #mario_path {
+    height: 50px;
+}
+
+#mario_img {
+    display: inline-block;
+    height: 50px;
+    animation: slide 2s linear infinite alternate both;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(500px);
+    }
+} */
+
+.auteurs {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 470px;
+    font-size: 16px;
+    font-family: Lato, Arial;
+}
+
+.egg {
+    color:black;
+}
+
+.egg:hover {
+    color:black;
+    text-decoration: none;
+    cursor: text;
+}
