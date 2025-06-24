@@ -28,6 +28,7 @@ body {
 
 .bandeau {
     display: flex;
+    justify-content: center;
 }
 
 .nom {
