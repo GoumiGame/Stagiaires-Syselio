@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+}
+
+#backgroundImage {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.page_1 {
+    transform: rotate(-10deg);
+    margin-top: 12%;
+    margin-left: 14%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+}
+
+.bandeau {
+    display: flex;
+    justify-content: center;
+}
+
+.nom {
+    display: inline-block;
+    font-family: Pacifico, Arial;
+    font-size: 2vw;
+}
+
+.annee {
+    display: inline-block;
+    font-family: Pacifico, Arial;
+    font-size: 2vw;
+    margin-left: 5%;
+}
+
+.texte_experience {
+    display: inline-block;
+    font-family: Dancing Script, Arial;
+    font-size: 1.55vw;
+    margin-top: 5%;
+}
+
+.page_2 {
+    transform: rotate(-10deg);
+    margin-top: 5%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.hello_world {
+    transform: rotate(-10deg);
+    display: inline-block;
+    width: 30%;
+    margin-top: 5%;
+    z-index: -1;
+}
+
+.pin1 {
+    display: inline-block;
+    position: absolute;
+    width: 8%;
+    margin-left: 12%;
+}
+
+.imagination {
+    transform: rotate(5deg);
+    display: inline-block;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 10%;
+    z-index: -1;
+}
+
+.pin2 {
+    display: inline-block;
+    position: absolute;
+    width: 8%;
+    margin-top: 26%;
+    margin-left: 24%;
+}
+
+#chill {
+    display: inline-block;
+    width: 30%;
+    margin-top: 7%;
+    margin-left: 8%;
+    transform: rotate(10deg);
+    opacity: 0;
+}
+
+#bunnyPath {
+    position: absolute;
+    top: 0;
+    left: 0;
+	width: 100%;
+	height: 121%;
+}
+
+#bunny {
+    display: inline-block;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+}
+
+#bunnyImg {
+    width: 100%;
+}
