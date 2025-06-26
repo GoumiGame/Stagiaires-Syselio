@@ -1,0 +1,78 @@
+body {
+    background-color:rgb(139,85,50) ;
+}
+
+.livre {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    width: 1000;
+    height: 915px;
+    z-index: -1;
+}
+
+.liens_carnet {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.div {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Poetsen One, Arial;
+    font-family: Outfit, static;
+    margin-top: 130px;
+    margin-left: 475px;
+    width: 350px;
+}
+
+.stick {
+    height: 400px;
+    top: 225px;
+    left: 875px;
+    position:absolute;
+}
+
+.nom {
+    font-size:30px;
+}
+
+.hello {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.syselio {
+    color:black;
+    text-decoration:none;
+}
+
+.syselio:hover {
+    color:black;
+    text-decoration:none;
+    cursor:text
+}
+
+.syselio:active {
+    color: black;
+    text-decoration:none;
+}
+
+.rayan {
+    color:black;
+    text-decoration:none;
+}
+
+.rayan:hover {
+    color:black;
+    text-decoration:none;
+    cursor:text
+}
+
+.rayan:active {
+    color: black;
+    text-decoration:none;
+}

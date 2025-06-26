@@ -1,0 +1,79 @@
+body {
+    background-image: url(Fond_Rayan.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titre {
+    position: center;
+    font-family: Outfit, static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size:50px;
+}
+
+.intro {
+    position: center;
+    font-family: Outfit, static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-right:40px;
+    font-size: 25px;
+
+}
+
+.année {
+    position: center;
+    font-family: Outfit, static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+.ressenti {
+    position: center;
+    font-family: Outfit, static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+.fin {
+    position: center;
+    font-family: Outfit, static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+.lien_carnet {
+    color: rgb(4, 109, 0);
+    font-size: 20px;
+    font-family: Poetsen One, Arial;
+    display: inline-block;
+    text-align: center;
+    position: center;
+    font-family: Outfit, static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+}
